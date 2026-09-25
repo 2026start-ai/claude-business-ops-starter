@@ -135,6 +135,33 @@ that happen automatically once you're set up:
   outside this git repo (so it stays private to your machine/account).
   No setup needed for this, it just starts happening.
 
+## 6. Turn on Chrome and email access — do this, it matters
+
+Bruce's own experience: two integrations turned this from "a chatbot
+that writes text" into something that actually runs the business —
+
+- **Claude in Chrome** (browser control): lets Claude click around and
+  read real web pages for you — checking a competitor's pricing page,
+  looking up a customer's vendor portal, filling in a government
+  filing status lookup, pulling data out of whatever web-based system
+  you run day-to-day on (POS, ordering, compliance sites, etc.). Install
+  the Chrome extension and connect it to your Claude account — look for
+  "Claude for Chrome" / browser extension in your Claude settings or
+  the Chrome Web Store.
+- **Email access** (Gmail or whatever you use): lets Claude search your
+  actual inbox for context (a customer's prior emails, a vendor
+  quote), draft replies as drafts (never sends without you approving),
+  and follow a real conversation thread instead of you having to
+  paste emails in by hand. Connect it under Claude's Settings →
+  Connectors (or similar, in whatever your Claude interface calls
+  integrations).
+
+Neither is required to get started — everything in steps 1-5 works
+without them — but both are worth setting up in your first week. A lot
+of the real day-to-day value (checking a real webpage, drafting a real
+reply in an actual email thread) depends on Claude being able to
+actually reach those places.
+
 ## Two things worth knowing
 
 - **`docs/backlog.md`, `docs/decisions.md`, `docs/fix-it.md`,
